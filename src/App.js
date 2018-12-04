@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import dc from './dc_logo.png';
 import cap from './captain_america.png';
 import './App.css';
@@ -6,7 +7,6 @@ import './App.css';
 function Home() {
   return (
     <div>
-
         <h1>Welcome to our first React App!</h1>
         <div className="container">
           <div className="column">
