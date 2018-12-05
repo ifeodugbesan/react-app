@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import dc from './dc_logo.png';
 import cap from './captain_america.png';
 import './App.css';
